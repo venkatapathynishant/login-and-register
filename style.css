@@ -10,12 +10,20 @@ body{
     background-image: url('/2backimg.jpg');
 }
 .container{
-    background:#fff;
+    background:teal;
     width:450px;
     padding:1.5rem;
     margin:50px auto;
     border-radius:10px;
     box-shadow:0 20px 35px rgba(0,0,1,0.9);
+
+    /* width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 30px 40px; */
 }
 form{
     margin:0 2rem;
@@ -48,7 +56,8 @@ input{
 input:focus{
     background-color: transparent;
     outline:transparent;
-    border-bottom:2px solid hsl(327,90%,28%);
+    /* border-bottom:2px solid hsl(327,90%,28%); */
+    border-bottom:2px solid #ffffff;
 }
 input::placeholder{
     color:transparent;
@@ -63,7 +72,8 @@ label{
 }
 input:focus~label,input:not(:placeholder-shown)~label{
     top:-3em;
-    color:hsl(327,90%,28%);
+    /* color:hsl(327,90%,28%); */
+    color: #ffffff;
     font-size:15px;
 }
 .recover{
